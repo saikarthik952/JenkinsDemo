@@ -14,7 +14,7 @@ public class DemoApplication {
 	}
 	
 
-	  @GetMapping("/")
+	  @GetMapping("/hello")
 	  public String  sayHello() {
 	    return "<h1> Hello Broooooooooo!!";
 	  }
